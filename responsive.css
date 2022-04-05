@@ -1,0 +1,351 @@
+/* ESCRITORIOS GRANDES 
+----------------------------------------*/
+@media (min-width: 1080px) {}
+
+/* ESCRITORIOS NORMALES 
+----------------------------------------*/
+@media (max-width: 990px) {
+
+    .menu {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .textHead {
+        margin: 50px 100px;
+    }
+
+    /*InteractiveBody*/
+
+    .h1head {
+        font-size: 30px;
+    }
+
+    .imginte {
+        height: 50vh;
+    }
+
+    .h2body {
+        font-size: 25px;
+    }
+
+    .PBODY {
+        font-size: 18px;
+    }
+
+    .btn-primary {
+        margin: 50px;
+
+    }
+
+    /*CREATION*/
+    .imgcreations {
+        height: 50vh;
+    }
+
+    .h2Creation {
+        margin-left: 28px;
+    }
+}
+
+/* tablet
+----------------------------------------*/
+@media (max-width:840px) {
+    .imgre {
+        height: 3vh;
+    }
+
+    .menuli a {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+
+    .textHead {
+        margin: 50px 100px;
+    }
+
+    /*InteractiveBody*/
+
+    .h1head {
+        font-size: 20px;
+    }
+
+    .imginte {
+        height: 40vh;
+    }
+
+    .h2body {
+        font-size: 21px;
+    }
+
+    .PBODY {
+        font-size: 16px;
+    }
+
+    .btn-primary {
+        margin: 35px;
+
+    }
+
+    /*CREATION*/
+    .imgcreations {
+        height: 38vh;
+    }
+
+    .h2Creation {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    /*footer*/
+    .logo2 {
+        height: 3vh;
+    }
+
+    .foot {
+        padding: 30px;
+    }
+
+    .artfo li {
+        font-size: 12px;
+
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+
+    .socia {
+        height: 4vh;
+    }
+}
+
+
+/* MOVILES 
+----------------------------------------*/
+@media (max-width: 700px) {
+    .menuhamburguesa {
+        display: block;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menulha {
+        background: #0000007a;
+        padding: 25px 0;
+        position: fixed;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        height: calc(100%);
+        overflow-y: auto;
+        transition:all 0.6s;
+        left: 100%;
+        z-index: 99999999999;
+    }
+
+    .menulha .hamburli a {
+        color: #fff;
+        
+    }
+
+    .menulha .hamburli a:hover {
+        padding: 5px 10px;
+        background: #d183d9;
+    }
+
+    .logoham {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+        padding: 15px;
+    }
+
+    .Hambur {
+        height: 4vh;
+    }
+
+    .imgham {
+        height: 4vh;
+    }
+
+    .menuham {
+        left: 0;
+    }
+
+    .menulha {
+        line-height: 60px;
+        text-align: center;
+    }
+
+    .textHead {
+        margin: 50px 15px;
+        border: 2px solid #fff;
+        padding: 15px;
+        width: 30%;
+    }
+}
+
+
+/* MOVILES peque;o
+----------------------------------------*/
+@media (max-width: 630px) {
+
+    /*header*/
+    .menu {
+        display: none;
+    }
+
+    .head {
+        background-image: url(images/mobile/image-hero.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .textHead {
+        margin: 50px auto;
+        width: 90%;
+        height: 50vh;
+    }
+
+    .h1head {
+        text-align: center;
+        margin: 80px auto;
+        font-size: 30px;
+    }
+
+    /*InteractiveBody*/
+
+
+    .Interacion {
+        position: none;
+    }
+
+    .imginte {
+        display: none;
+    }
+
+    .interes {
+        display: block;
+        height: 40vh;
+        margin: auto 100px;
+    }
+
+    .TextInteraccion {
+        font-size: 12px;
+        position: none;
+    }
+
+    .PBODY {
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        margin: 20px;
+    }
+
+    /*CREATION*/
+
+    .CREATION{
+        overflow-y: scroll;
+      }
+
+    .h2Creation {
+        margin: 20px auto;
+    }
+
+    .imgcreations {
+        display: none;
+    }
+
+    .linea1 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imgMobile {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .linea2 {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .creaccionh2 {
+        font-size: 15px;
+        margin: 10px;
+    }
+}
+
+    /* MOVILES peque;o
+----------------------------------------*/
+    @media (max-width: 530px){
+        .imgham{
+            height: 3vh;
+        }
+        .Hambur{
+            height: 3vh;
+        }
+   
+     .imginteractiva{
+        display: block;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        margin-right: 45%;
+        margin-top: 20%;
+        width:100%;
+     }
+    .interes{
+        height:30vh;
+        width:100%;
+    }
+    .TextInteraccion{
+    display: block;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    margin-right: 45%;
+    margin-top: 80%;
+    
+    }
+    .h2body{
+        font-size:15px;
+    }
+    .PBODY{
+        font-size:12px;
+    }
+    .btn-primary{
+       margin:0 30px;
+       padding:8px 50px;
+       display: flex;
+    }
+    
+    .footer{
+        display:block;
+        text-align:center;
+    }
+    .artfo li{
+        display:block;
+    }
+
+    .social{
+        
+        margin: auto;
+    }
+
+    .socia{
+        height:4vh;
+        margin: 0 30px;
+    }
+    };
